@@ -93,8 +93,8 @@ void AddNodeToEndOfList(node **ptr_to_start, int value)
 
 
 /* Exercise Tasks
-1. Write a function int ListLength(*start) which traverses the list, counts the number of nodes and returns that count.
-2. Write a function AddNode(**ptr_to_start, int value)
+1. Write a function int ListLength(node *start) which traverses the list, counts the number of nodes and returns that count.
+2. Write a function void AddNode(node **ptr_to_start, int value)
     This function should insert a node in to a place in the list so that the list is stored 
     in ascending order of value. e.g. 3,7,9,122 etc
     If the list is empty it should add a new node at the start of the list
@@ -104,7 +104,7 @@ void AddNodeToEndOfList(node **ptr_to_start, int value)
           it should add a new node to the end of the list
 3. Test the function from 1 with these values added in this order 5,6,2,7,4 and make sure you 
     get the correct output with PrintLinkedList
-4. Write a function SortList(*start) which takes an unsorted list and rearranges it   
+4. Write a function void SortList(node **ptr_to_start) which takes an unsorted list and rearranges it   
     in to a sorted list
    The function should implement a bubble sort and swap the values within the nodes around
 
